@@ -3,7 +3,10 @@ package Hibernate.model;
 import javax.persistence.*;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
-import java.util.Date;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.joda.time.DateTime;
 import java.util.List;
 
 @Entity
@@ -11,6 +14,7 @@ import java.util.List;
         @UniqueConstraint(columnNames = ("login"))})
 public class Users {
 
+    @JsonIgnore
     @Id @GeneratedValue
     @Column(name = "idUsers")
     private int idUsers;
@@ -27,8 +31,9 @@ public class Users {
     @Column(name = "password", nullable = false)
     private String password;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Column(name = "passwordExpired", nullable = false)
-    private ZonedDateTime passwordExpired;
+    private DateTime passwordExpired;
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name="Address_ID", referencedColumnName = "idAddress")
@@ -92,11 +97,11 @@ public class Users {
         this.businesses = businesses;
     }
 
-    public ZonedDateTime getPasswordExpired() {
+    public DateTime getPasswordExpired() {
         return passwordExpired;
     }
 
-    public void setPasswordExpired(ZonedDateTime passwordExpired) {
+    public void setPasswordExpired(DateTime passwordExpired) {
         this.passwordExpired = passwordExpired;
     }
 

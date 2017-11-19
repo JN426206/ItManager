@@ -1,11 +1,14 @@
 package Hibernate.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "Passwords")
 public class Passwords {
 
+    @JsonIgnore
     @Id @GeneratedValue
     @Column(name = "idPasswords")
     private int idPasswords;
@@ -22,6 +25,8 @@ public class Passwords {
     @ManyToOne
     @JoinColumn(name = "business_id", nullable = false)
     private Business business;
+
+    public Passwords() {}
 
     public Passwords(Business business) {
         this.business = business;

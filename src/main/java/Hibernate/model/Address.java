@@ -1,11 +1,14 @@
 package Hibernate.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "Address")
 public class Address {
 
+    @JsonIgnore
     @Id
     @GeneratedValue
     private int idAddress;

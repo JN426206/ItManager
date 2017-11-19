@@ -5,13 +5,73 @@ import Hibernate.model.Business;
 import Hibernate.model.Passwords;
 import Hibernate.model.Users;
 import Hibernate.queries.Queries;
+import org.joda.time.DateTime;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.time.ZonedDateTime;
+import java.util.List;
 
 public class Manager {
+    public static void generateDate(EntityManager entityManager){
+        Address address = new Address();
+        address.setCity("Poznań");
+        address.setCountry("Poland");
+        address.setHouseNumber("23");
+        address.setPostCode("60980");
+        address.setStreet("Niestachowska");
+
+        Users user = new Users();
+        user.setLogin("Marek");
+        user.setName("Marek");
+        user.setSurname("Pils");
+        user.setPassword("pass123");
+        user.setAddress(address);
+        DateTime date = DateTime.now();
+        user.setPasswordExpired(date.plusMonths(6));
+
+
+        Address addressBusines = new Address();
+        addressBusines.setCity("Luboń");
+        addressBusines.setCountry("Poland");
+        addressBusines.setHouseNumber("15");
+        addressBusines.setPostCode("67123");
+        addressBusines.setStreet("Mokra");
+
+        Business busines = new Business();
+        busines.setName("Wytwórnia jedwabiu");
+        busines.setAddress(addressBusines);
+        busines.setNip("4485562598");
+        busines.setRegon("569325478");
+
+        Passwords password = new Passwords(busines);
+        password.setPassword("123456789");
+        password.setName("Komputer marka");
+
+        Passwords password2 = new Passwords(busines);
+        password2.setPassword("ala ma kota");
+        password2.setName("WiFi biuro");
+        password2.setComment("WiFi w biurze tylko na potrzeby księgowej");
+
+        entityManager.persist(address);
+        entityManager.persist(addressBusines);
+
+        busines.getPasswords().add(password);
+        busines.getPasswords().add(password2);
+
+        entityManager.persist(busines);
+
+
+        entityManager.persist(password);
+        entityManager.persist(password2);
+
+
+        user.getBusinesses().add(busines);
+
+        entityManager.persist(user);
+
+        entityManager.getTransaction().commit();
+    }
     public static void main(String[] args) {
         System.out.println("Start");
 
@@ -25,63 +85,7 @@ public class Manager {
 
             entityManager.getTransaction().begin();
 
-            Address address = new Address();
-            address.setCity("Poznań");
-            address.setCountry("Poland");
-            address.setHouseNumber("23");
-            address.setPostCode("60980");
-            address.setStreet("Niestachowska");
-
-            Users user = new Users();
-            user.setLogin("Marek");
-            user.setName("Marek");
-            user.setSurname("Pils");
-            user.setPassword("pass123");
-            user.setAddress(address);
-            ZonedDateTime date = ZonedDateTime.now();
-            user.setPasswordExpired(date.plusMonths(6));
-
-
-            Address addressBusines = new Address();
-            addressBusines.setCity("Luboń");
-            addressBusines.setCountry("Poland");
-            addressBusines.setHouseNumber("15");
-            addressBusines.setPostCode("67123");
-            addressBusines.setStreet("Mokra");
-
-            Business busines = new Business();
-            busines.setName("Wytwórnia jedwabiu");
-            busines.setAddress(addressBusines);
-            busines.setNip("4485562598");
-            busines.setRegon("569325478");
-
-            Passwords password = new Passwords(busines);
-            password.setPassword("123456789");
-            password.setName("Komputer marka");
-
-            Passwords password2 = new Passwords(busines);
-            password2.setPassword("ala ma kota");
-            password2.setName("WiFi biuro");
-            password2.setComment("WiFi w biurze tylko na potrzeby księgowej");
-
-            entityManager.persist(address);
-            entityManager.persist(addressBusines);
-
-            busines.getPasswords().add(password);
-            busines.getPasswords().add(password2);
-
-            entityManager.persist(busines);
-
-
-            entityManager.persist(password);
-            entityManager.persist(password2);
-
-
-            user.getBusinesses().add(busines);
-
-            entityManager.persist(user);
-
-            entityManager.getTransaction().commit();
+            generateDate(entityManager);
 
             System.out.println("Done");
 
@@ -118,6 +122,94 @@ public class Manager {
             System.err.println("Initial SessionFactory creation failed." + ex);
         } finally {
             entityManagerFactory.close();
+        }
+    }
+
+    public List<Users> readFromBaseAllDate(){
+
+        System.out.println("Start readFromBaseAllDate");
+
+        EntityManager entityManager = null;
+
+        EntityManagerFactory entityManagerFactory = null;
+
+        try {
+            entityManagerFactory = Persistence.createEntityManagerFactory("hibernate-dynamic");
+            entityManager = entityManagerFactory.createEntityManager();
+
+            entityManager.getTransaction().begin();
+
+            generateDate(entityManager);
+
+            List<Users> users = new Queries(entityManager).getAllUsers();
+
+            entityManager.close();
+
+            return users;
+        }catch (Throwable ex){
+            System.err.println("Initial SessionFactory creation failed." + ex);
+            return null;
+        } finally {
+            entityManagerFactory.close();
+            System.out.println("End readFromBaseAllDate");
+        }
+    }
+
+    public void saveToDatabaseAllDate(List<Users> users){
+
+        System.out.println("Start saveToDatabaseAllDate");
+
+        EntityManager entityManager = null;
+
+        EntityManagerFactory entityManagerFactory = null;
+
+        try {
+            entityManagerFactory = Persistence.createEntityManagerFactory("hibernate-dynamic");
+            entityManager = entityManagerFactory.createEntityManager();
+
+            entityManager.getTransaction().begin();
+
+            for(Users user : users){
+
+                System.out.println(user.getAddress().getPostCode());
+                entityManager.persist(user.getAddress());
+
+                for(Business busines : user.getBusinesses()){
+
+                    System.out.println(busines.getAddress().getPostCode());
+                    entityManager.persist(busines.getAddress());
+
+                    for(Passwords password : busines.getPasswords()){
+                        System.out.println(user.getPasswordExpired());
+                        password.setBusiness(busines);
+                        //busines.getPasswords().add(password);
+                    }
+
+                    entityManager.persist(busines);
+
+                    for(Passwords password : busines.getPasswords()){
+                        entityManager.persist(password);
+                    }
+
+                    user.getBusinesses().add(busines);
+
+                }
+
+                entityManager.persist(user);
+
+            }
+
+
+
+            entityManager.getTransaction().commit();
+
+            entityManager.close();
+
+        }catch (Throwable ex){
+            System.err.println("Initial SessionFactory creation failed." + ex);
+        } finally {
+            entityManagerFactory.close();
+            System.out.println("End saveToDatabaseAllDate");
         }
     }
 }

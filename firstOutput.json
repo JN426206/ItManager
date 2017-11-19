@@ -1,0 +1,149 @@
+[
+  {
+    "idUsers": 0,
+    "login": "Marek",
+    "name": "Marek",
+    "surname": "Pils",
+    "password": "pass123",
+    "passwordExpired": "2018-05-19T23:45:48.545+02:00",
+    "address": {
+      "idAddress": 0,
+      "street": "Niestachowska",
+      "city": "Poznań",
+      "postCode": "60980",
+      "houseNumber": "23",
+      "country": "Poland"
+    },
+    "businesses": [
+      {
+        "idBusiness": 0,
+        "nip": "4485562598",
+        "regon": "569325478",
+        "name": "Wytwórnia jedwabiu",
+        "address": {
+          "idAddress": 0,
+          "street": "Mokra",
+          "city": "Luboń",
+          "postCode": "67123",
+          "houseNumber": "15",
+          "country": "Poland"
+        },
+        "passwords": [
+          {
+            "idPasswords": 0,
+            "password": "123456789",
+            "name": "Komputer marka"
+          },
+          {
+            "idPasswords": 0,
+            "password": "ala ma kota",
+            "name": "WiFi biuro",
+            "comment": "WiFi w biurze tylko na potrzeby księgowej"
+          }
+        ],
+        "users": []
+      },
+      {
+        "idBusiness": 0,
+        "nip": "1152284732",
+        "regon": "456298759",
+        "name": "Warsztat samochodowy",
+        "address": {
+          "idAddress": 0,
+          "street": "Poznańska",
+          "city": "Wrocław",
+          "postCode": "45895",
+          "houseNumber": "65",
+          "country": "Poland"
+        },
+        "passwords": [
+          {
+            "idPasswords": 0,
+            "password": "Op0k@",
+            "name": "Serwer"
+          },
+          {
+            "idPasswords": 0,
+            "password": "P|0tk@",
+            "name": "NAS",
+            "comment": "NAS dla szefa"
+          }
+        ],
+        "users": []
+      }
+    ]
+  },
+  {
+    "idUsers": 0,
+    "login": "TadeuszN",
+    "name": "Tadeusz",
+    "surname": "Nowicki",
+    "password": "h@s|0!@#",
+    "address": {
+      "idAddress": 0,
+      "street": "Warszawska",
+      "city": "Wrocław",
+      "postCode": "42985",
+      "houseNumber": "23",
+      "country": "Poland"
+    },
+    "businesses": [
+      {
+        "idBusiness": 0,
+        "nip": "1542265985",
+        "regon": "102648956",
+        "name": "Szklania Piaska",
+        "address": {
+          "idAddress": 0,
+          "street": "Wawrzyniaka",
+          "city": "Wrocław",
+          "postCode": "48972",
+          "houseNumber": "56",
+          "country": "Poland"
+        },
+        "passwords": [
+          {
+            "idPasswords": 0,
+            "password": "Qwerty!@#",
+            "name": "Komputer wojtka"
+          },
+          {
+            "idPasswords": 0,
+            "password": "zxcqaz!@#",
+            "name": "WiFi goście",
+            "comment": "WiFi dla gości w biurze"
+          }
+        ],
+        "users": []
+      },
+      {
+        "idBusiness": 0,
+        "nip": "1152284732",
+        "regon": "456298759",
+        "name": "Warsztat samochodowy",
+        "address": {
+          "idAddress": 0,
+          "street": "Poznańska",
+          "city": "Wrocław",
+          "postCode": "45895",
+          "houseNumber": "65",
+          "country": "Poland"
+        },
+        "passwords": [
+          {
+            "idPasswords": 0,
+            "password": "Op0k@",
+            "name": "Serwer"
+          },
+          {
+            "idPasswords": 0,
+            "password": "P|0tk@",
+            "name": "NAS",
+            "comment": "NAS dla szefa"
+          }
+        ],
+        "users": []
+      }
+    ]
+  }
+]

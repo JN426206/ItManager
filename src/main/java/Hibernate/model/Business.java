@@ -1,5 +1,7 @@
 package Hibernate.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +12,7 @@ import java.util.List;
 })
 public class Business {
 
+    @JsonIgnore
     @Id
     @GeneratedValue(generator = "gen")
     @SequenceGenerator(name="gen", sequenceName = "author_seq")
