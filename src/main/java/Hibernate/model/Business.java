@@ -25,15 +25,16 @@ public class Business {
     @Column(name = "name", nullable = false)
     private String name;
 
-    @Column(name = "adress", nullable = false)
-    private String adress;
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name="Address_ID", referencedColumnName = "idAddress")
+    Address address;
 
-//    @OneToMany(mappedBy = "business")
-//    //@JoinColumn(name="idPasswords_ID", referencedColumnName = "idPasswords")
-//    private List<Passwords> passwords = new ArrayList<Passwords>();
-//
-//    @ManyToMany(mappedBy = "business2")
-//    private List<Users> users = new ArrayList<Users>();
+    @OneToMany(mappedBy = "business")
+    //@JoinColumn(name="idPasswords_ID", referencedColumnName = "idPasswords")
+    private List<Passwords> passwords = new ArrayList<Passwords>();
+
+    @ManyToMany(mappedBy = "businesses")
+    private List<Users> users = new ArrayList<Users>();
 
     public Business() {}
 
@@ -69,27 +70,27 @@ public class Business {
         this.name = name;
     }
 
-    public String getAdress() {
-        return adress;
+    public List<Passwords> getPasswords() {
+        return passwords;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setPasswords(List<Passwords> passwords) {
+        this.passwords = passwords;
     }
 
-//    public List<Passwords> getPasswords() {
-//        return passwords;
-//    }
-//
-//    public void setPasswords(List<Passwords> passwords) {
-//        this.passwords = passwords;
-//    }
-//
-//    public List<Users> getUsers() {
-//        return users;
-//    }
-//
-//    public void setUsers(List<Users> users) {
-//        this.users = users;
-//    }
+    public List<Users> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<Users> users) {
+        this.users = users;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 }

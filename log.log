@@ -133,3 +133,1029 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "passwords" does n
 2017-11-18 23:49:37 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
 2017-11-18 23:49:37 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5aa360ea'
 2017-11-18 23:49:38 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 12:01:10 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 12:01:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 12:01:10 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 12:01:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 12:01:10 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 12:01:10 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 12:01:11 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 12:01:11 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 12:01:11 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 12:01:11 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 12:01:11 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 12:01:11 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 12:01:13 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 12:01:13 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d29b4ee
+2017-11-19 13:00:53 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:00:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:00:54 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:00:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:00:54 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:00:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:00:54 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:00:54 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:00:54 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:00:54 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:00:54 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:00:54 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:00:54 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:00:54 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d29b4ee
+2017-11-19 13:07:26 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:07:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:07:26 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:07:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:07:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:07:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:07:26 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:07:26 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:07:26 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:07:26 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:07:26 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:07:27 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:07:27 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:07:27 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2d29b4ee
+2017-11-19 13:07:28 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:07:29 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Users_Business drop constraint FKelht9u8agwj1s12g463qs35bh]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Users_Business drop constraint FKelht9u8agwj1s12g463qs35bh]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Hibernate.Manager.main(Manager.java:21)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "users_business" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2017-11-19 13:07:29 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Users_Business drop constraint FK2vj8ykv4mb3jj5qmhwp3qtjm6]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Users_Business drop constraint FK2vj8ykv4mb3jj5qmhwp3qtjm6]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Hibernate.Manager.main(Manager.java:21)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "users_business" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:218 - table "users_business" does not exist, skipping
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:29 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:07:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:07:30 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:07:30 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@78d50a3c'
+2017-11-19 13:07:30 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:10:43 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:10:43 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:10:43 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:10:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:10:43 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:10:43 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:10:43 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:10:43 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:10:43 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:10:43 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:10:43 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:10:44 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:10:44 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:10:44 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:10:45 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:10:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:10:45 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:10:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:10:45 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:10:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:10:45 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:10:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:10:46 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fb69ff6'
+2017-11-19 13:10:46 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:12:34 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:12:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:12:34 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:12:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:12:34 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:12:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:12:34 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:12:34 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:12:34 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:12:34 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:12:34 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:12:35 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:12:35 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:12:35 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:12:36 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:12:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:12:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:12:37 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:12:37 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fb69ff6'
+2017-11-19 13:12:37 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:15:33 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:15:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:15:34 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:15:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:15:34 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:15:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:15:34 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:15:34 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:15:34 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:15:34 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:15:34 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:15:35 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:15:35 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:15:35 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:15:35 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:15:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:15:36 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fb69ff6'
+2017-11-19 13:15:37 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:17:52 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:17:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:17:52 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:17:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:17:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:17:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:17:53 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:17:53 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:17:53 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:17:53 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:17:53 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:17:53 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:17:53 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:17:53 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:17:54 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:17:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:17:55 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fb69ff6'
+2017-11-19 13:17:55 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:19:12 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:19:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:19:12 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:19:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:19:12 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:19:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:19:12 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:19:13 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:19:13 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:19:13 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:19:13 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:19:13 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:19:13 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:19:13 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:19:14 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:19:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:19:15 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2fb69ff6'
+2017-11-19 13:19:16 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:20:49 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:20:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:20:50 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:20:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:20:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:20:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:20:51 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:20:51 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:20:51 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:20:51 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:20:51 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:20:52 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:20:52 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:20:52 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:20:53 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:20:54 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Users_Business drop constraint FKluqqwe9er9mm9lccfhbhnrj89]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Users_Business drop constraint FKluqqwe9er9mm9lccfhbhnrj89]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Hibernate.Manager.main(Manager.java:21)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fkluqqwe9er9mm9lccfhbhnrj89" of relation "users_business" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2017-11-19 13:20:54 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Users_Business drop constraint FKosoodsob27kiyt04l5snbo9cd]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Users_Business drop constraint FKosoodsob27kiyt04l5snbo9cd]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Hibernate.Manager.main(Manager.java:21)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fkosoodsob27kiyt04l5snbo9cd" of relation "users_business" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:218 - drop cascades to constraint fkelht9u8agwj1s12g463qs35bh on table users_business
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:218 - drop cascades to constraint fk2vj8ykv4mb3jj5qmhwp3qtjm6 on table users_business
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:54 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:20:55 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:20:55 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5d10455d'
+2017-11-19 13:20:55 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:22:30 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:22:31 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:22:31 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:22:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:22:31 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:22:31 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:22:31 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:22:31 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:22:31 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:22:31 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:22:31 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:22:32 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:22:32 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:22:32 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:22:33 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:22:33 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:22:33 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:22:34 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:22:34 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@cda4919'
+2017-11-19 13:22:34 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:27:11 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:27:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:27:11 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:27:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:27:11 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:27:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:27:12 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:27:12 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:27:12 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:27:12 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:27:12 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:27:12 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:27:12 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:27:12 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:27:13 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:27:14 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:27:14 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@cda4919'
+2017-11-19 13:27:15 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:32:12 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:32:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:32:12 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:32:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:32:12 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:32:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:32:12 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:32:12 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:32:12 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:32:12 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:32:12 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:32:13 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:32:13 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:32:13 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:32:14 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:32:15 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@344b8190'
+2017-11-19 13:32:15 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23502
+2017-11-19 13:32:15 ERROR SqlExceptionHelper:131 - ERROR: null value in column "business_id" violates not-null constraint
+2017-11-19 13:32:15 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2017-11-19 13:32:15 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-19 13:32:15 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:34:46 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:34:47 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:34:47 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:34:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:34:47 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:34:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:34:47 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:34:47 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:34:47 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:34:47 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:34:47 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:34:48 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:34:48 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:34:48 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:34:48 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:34:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:34:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:34:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:34:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:34:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:34:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:34:50 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@344b8190'
+2017-11-19 13:34:50 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23502
+2017-11-19 13:34:50 ERROR SqlExceptionHelper:131 - ERROR: null value in column "business_id" violates not-null constraint
+2017-11-19 13:34:50 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2017-11-19 13:34:50 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-19 13:34:50 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:35:07 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:35:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:35:08 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:35:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:35:08 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:35:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:35:08 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:35:08 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:35:08 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:35:08 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:35:08 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:35:09 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:35:09 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:35:09 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:35:10 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:35:11 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@344b8190'
+2017-11-19 13:35:11 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23502
+2017-11-19 13:35:11 ERROR SqlExceptionHelper:131 - ERROR: null value in column "business_id" violates not-null constraint
+2017-11-19 13:35:11 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2017-11-19 13:35:11 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-19 13:35:11 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:42:50 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:42:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:42:50 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:42:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:42:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:42:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:42:50 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:42:50 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:42:50 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:42:50 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:42:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:42:51 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:42:51 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:42:51 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:42:52 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:42:53 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:42:53 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@344b8190'
+2017-11-19 13:42:53 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:43:21 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:43:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:43:22 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:43:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:43:22 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:43:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:43:22 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:43:22 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:43:22 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:43:22 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:43:22 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:43:22 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:43:23 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:43:23 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:43:23 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:43:24 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:43:25 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@344b8190'
+2017-11-19 13:43:25 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23502
+2017-11-19 13:43:25 ERROR SqlExceptionHelper:131 - ERROR: null value in column "business_id" violates not-null constraint
+2017-11-19 13:43:25 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2017-11-19 13:43:25 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2017-11-19 13:43:25 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:44:06 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:44:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:44:07 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:44:07 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:44:07 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:44:07 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:44:07 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:44:07 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:44:07 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:44:07 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:44:07 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:44:08 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:44:08 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:44:08 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:44:09 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:44:09 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 13:44:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:44:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:44:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:44:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:44:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:44:10 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@344b8190'
+2017-11-19 13:44:10 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:48:15 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:48:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:48:15 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:48:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:48:15 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:48:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:48:16 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:48:16 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:48:16 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:48:16 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:48:16 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:48:16 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:48:17 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:48:17 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:48:17 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:48:18 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 13:48:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:48:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:48:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:48:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:48:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:48:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:48:19 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@344b8190'
+2017-11-19 13:48:19 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:59:00 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 13:59:00 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 13:59:00 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 13:59:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 13:59:00 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 13:59:00 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 13:59:00 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 13:59:00 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 13:59:00 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 13:59:00 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 13:59:00 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 13:59:01 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 13:59:01 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 13:59:01 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f58853c
+2017-11-19 13:59:02 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 13:59:02 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 13:59:02 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:02 WARN  SqlExceptionHelper:218 - table "adress" does not exist, skipping
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "adress_pkey" for table "adress"
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:03 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 13:59:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 13:59:04 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 13:59:04 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@31be6b49'
+2017-11-19 13:59:04 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 15:30:48 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 15:30:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 15:30:48 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 15:30:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 15:30:48 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 15:30:49 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 15:30:49 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 15:30:49 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 15:30:49 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 15:30:49 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 15:30:49 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 15:30:49 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 15:30:49 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 15:30:49 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3b35a229
+2017-11-19 15:30:50 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 15:30:51 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "adress_pkey" for table "adress"
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 15:30:51 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 15:30:51 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@325f7fa9'
+2017-11-19 15:30:52 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:02:01 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 16:02:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 16:02:02 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 16:02:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 16:02:02 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 16:02:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 16:02:02 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 16:02:02 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:02:02 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 16:02:02 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 16:02:02 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 16:02:02 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 16:02:03 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 16:02:03 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3b35a229
+2017-11-19 16:02:03 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 16:02:04 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 16:02:04 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Users drop constraint FKq6b1de3trymsb480gpbgxy31v]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Users drop constraint FKq6b1de3trymsb480gpbgxy31v]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Hibernate.Manager.main(Manager.java:27)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fkq6b1de3trymsb480gpbgxy31v" of relation "users" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - table "address" does not exist, skipping
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:02:04 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 16:02:04 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7f34a967'
+2017-11-19 16:02:05 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:09:27 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 16:09:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 16:09:27 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 16:09:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 16:09:27 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 16:09:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 16:09:28 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 16:09:28 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:09:28 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 16:09:28 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 16:09:28 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 16:09:28 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 16:09:28 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 16:09:28 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@565f390
+2017-11-19 16:09:29 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 16:09:29 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 16:09:29 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Business drop constraint FKsesoikc914auxwk1a77pcw1l4]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Business drop constraint FKsesoikc914auxwk1a77pcw1l4]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Hibernate.Manager.main(Manager.java:27)
+Caused by: org.postgresql.util.PSQLException: ERROR: constraint "fksesoikc914auxwk1a77pcw1l4" of relation "business" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2476)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2189)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:300)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:428)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:354)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:301)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:287)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:264)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:260)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:09:30 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 16:09:30 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@109f5dd8'
+2017-11-19 16:09:30 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:09:58 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 16:09:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 16:09:58 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 16:09:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 16:09:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 16:09:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 16:09:59 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 16:09:59 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:09:59 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 16:09:59 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 16:09:59 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 16:09:59 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 16:09:59 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 16:09:59 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@565f390
+2017-11-19 16:10:00 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 16:10:00 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:10:01 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 16:10:01 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7f34a967'
+2017-11-19 16:10:01 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:18:14 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 16:18:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 16:18:15 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 16:18:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 16:18:15 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 16:18:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 16:18:15 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 16:18:15 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:18:15 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 16:18:15 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 16:18:15 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 16:18:16 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 16:18:16 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 16:18:16 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@565f390
+2017-11-19 16:18:17 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 16:18:17 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:18:18 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 16:18:18 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7f34a967'
+2017-11-19 16:18:18 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:21:35 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-19 16:21:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-19 16:21:35 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-19 16:21:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-19 16:21:35 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-19 16:21:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-19 16:21:36 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-19 16:21:36 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-19 16:21:36 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-19 16:21:36 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-19 16:21:36 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-19 16:21:36 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-19 16:21:36 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-19 16:21:36 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@565f390
+2017-11-19 16:21:37 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-19 16:21:37 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: Hibernate.model.Passwords (class must be instantiated by Interceptor)
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-19 16:21:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-19 16:21:38 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7f34a967'
+2017-11-19 16:21:39 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]

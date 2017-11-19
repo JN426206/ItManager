@@ -1,7 +1,9 @@
 package Hibernate.model;
 
 import javax.persistence.*;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -11,7 +13,7 @@ public class Users {
 
     @Id @GeneratedValue
     @Column(name = "idUsers")
-    private int id;
+    private int idUsers;
 
     @Column(name = "login", nullable = false, unique = true)
     private String login;
@@ -25,22 +27,29 @@ public class Users {
     @Column(name = "password", nullable = false)
     private String password;
 
-//    @ManyToMany(cascade = {CascadeType.ALL})
-//    @JoinTable(
-//            name = "Users_Business",
-//            joinColumns = { @JoinColumn(name = "users_id")},
-//            inverseJoinColumns = { @JoinColumn(name = "business_id")}
-//    )
-//    List<Business> businesses = new ArrayList<Business>();
+    @Column(name = "passwordExpired", nullable = false)
+    private ZonedDateTime passwordExpired;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name="Address_ID", referencedColumnName = "idAddress")
+    Address address;
+
+    @ManyToMany(cascade = {CascadeType.ALL})
+    @JoinTable(
+            name = "Users_Business",
+            joinColumns = { @JoinColumn(name = "users_id")},
+            inverseJoinColumns = { @JoinColumn(name = "business_id")}
+    )
+    List<Business> businesses = new ArrayList<Business>();
 
     public Users() {}
 
-    public int getId() {
-        return id;
+    public int getIdUsers() {
+        return idUsers;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdUsers(int id) {
+        this.idUsers = id;
     }
 
     public String getLogin() {
@@ -75,11 +84,27 @@ public class Users {
         this.password = password;
     }
 
-//    public List<Business> getBusinesses() {
-//        return businesses;
-//    }
-//
-//    public void setBusinesses(List<Business> businesses) {
-//        this.businesses = businesses;
-//    }
+    public List<Business> getBusinesses() {
+        return businesses;
+    }
+
+    public void setBusinesses(List<Business> businesses) {
+        this.businesses = businesses;
+    }
+
+    public ZonedDateTime getPasswordExpired() {
+        return passwordExpired;
+    }
+
+    public void setPasswordExpired(ZonedDateTime passwordExpired) {
+        this.passwordExpired = passwordExpired;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 }
