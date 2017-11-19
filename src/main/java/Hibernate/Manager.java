@@ -4,16 +4,12 @@ import Hibernate.model.Address;
 import Hibernate.model.Business;
 import Hibernate.model.Passwords;
 import Hibernate.model.Users;
+import Hibernate.queries.Queries;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 
 public class Manager {
     public static void main(String[] args) {
@@ -89,7 +85,34 @@ public class Manager {
 
             System.out.println("Done");
 
+            System.out.println(new Queries(entityManager).getAllUsers().size());
+            for(Users findedUsers : new Queries(entityManager).getAllUsers()){
+                System.out.println("Login: "+findedUsers.getLogin()+" Name: "+findedUsers.getName()+" surname: "+findedUsers.getSurname());
+            }
+
+            System.out.println(new Queries(entityManager).getAllPasswordsFromBusinessByNIP("4485562598").size());
+            for (Passwords findedPasswords : new Queries(entityManager).getAllPasswordsFromBusinessByNIP("4485562598")) {
+                System.out.println("Name: "+findedPasswords.getName()+" Password: "+findedPasswords.getPassword());
+            }
+
+            System.out.println(new Queries(entityManager).getAllPasswordsPagging().size());
+            for(Passwords findedPasswords : new Queries(entityManager).getAllPasswordsPagging()){
+                System.out.println("Name: "+findedPasswords.getName()+" Password: "+findedPasswords.getPassword());
+            }
+
+            System.out.println(new Queries(entityManager).getAllUserBusiness("Marek").size());
+            for(Business findedBusiness : new Queries(entityManager).getAllUserBusiness("Marek")){
+                System.out.println("Name: "+findedBusiness.getName()+" NIP: "+findedBusiness.getNip());
+            }
+
+            System.out.println(new Queries(entityManager).getAllAddress().size());
+            for(Address findedAddress : new Queries(entityManager).getAllAddress()){
+                System.out.println("City: "+findedAddress.getCity()+" PostCode: "+findedAddress.getPostCode());
+            }
+
             entityManager.close();
+
+
 
         } catch (Throwable ex){
             System.err.println("Initial SessionFactory creation failed." + ex);
