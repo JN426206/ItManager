@@ -13,6 +13,11 @@ import javax.persistence.Persistence;
 import java.util.List;
 
 public class Manager {
+
+    public Manager(){
+
+    }
+
     public static void generateDate(EntityManager entityManager){
         Address address = new Address();
         address.setCity("Poznań");
@@ -69,6 +74,27 @@ public class Manager {
         user.getBusinesses().add(busines);
 
         entityManager.persist(user);
+
+
+        Address address2 = new Address();
+        address2.setCity("Poznań");
+        address2.setCountry("Poland");
+        address2.setHouseNumber("43");
+        address2.setPostCode("60234");
+        address2.setStreet("Warszawska");
+
+        Users user2 = new Users();
+        user2.setLogin("Adam");
+        user2.setName("Adam");
+        user2.setSurname("Moś");
+        user2.setPassword("pol234");
+        user2.setAddress(address2);
+        DateTime date2 = DateTime.now();
+        user2.setPasswordExpired(date2.plusMonths(6));
+
+        entityManager.persist(address2);
+
+        entityManager.persist(user2);
 
         entityManager.getTransaction().commit();
     }
@@ -168,67 +194,31 @@ public class Manager {
             entityManager = entityManagerFactory.createEntityManager();
 
             entityManager.getTransaction().begin();
-//            Address address = new Address();
-//            address.setCity("Poznań");
-//            address.setCountry("Poland");
-//            address.setHouseNumber("23");
-//            address.setPostCode("60980");
-//            address.setStreet("Niestachowska");
-//
-//            Users user = new Users();
-//            user.setLogin("Marek");
-//            user.setName("Marek");
-//            user.setSurname("Pils");
-//            user.setPassword("pass123");
-//            user.setAddress(address);
-//            DateTime date = DateTime.now();
-//            user.setPasswordExpired(date.plusMonths(6));
-//            user.setAddress(address);
-//            entityManager.persist(address);
-//            user.setBusinesses(null);
-//            entityManager.persist(user);
 
             for(Users user : users){
 
                 System.out.println("Post code user: "+user.getAddress().getIdAddress());
                 entityManager.persist(user.getAddress());
-//                Address address = new Address();
-//                address.setCity("Poznań");
-//                address.setCountry("Poland");
-//                address.setHouseNumber("23");
-//                address.setPostCode("60980");
-//                address.setStreet("Niestachowska");
-//                user.setAddress(address);
-//                user.setBusinesses(null);
 
                 for(Business busines : user.getBusinesses()){
 
                     System.out.println("Post code business: "+busines.getAddress().getPostCode());
                     entityManager.persist(busines.getAddress());
-                    //busines.setPasswords(null);
+
                     entityManager.persist(busines);
                     for(Passwords password : busines.getPasswords()){
                         System.out.println("Password busines: "+password.getPassword());
                         password.setBusiness(busines);
                         entityManager.persist(password);
-                        //busines.getPasswords().add(password);
                     }
 
-
-//                    for(Passwords password : busines.getPasswords()){
-//                        //entityManager.persist(password);
-//                    }
-
                     entityManager.persist(busines);
-                    //user.getBusinesses().add(busines);
 
                 }
 
                 entityManager.persist(user);
 
             }
-
-
 
             entityManager.getTransaction().commit();
 

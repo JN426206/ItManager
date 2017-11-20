@@ -4,7 +4,7 @@
     <name>Marek</name>
     <surname>Pils</surname>
     <password>pass123</password>
-    <passwordExpired>2018-05-20 10:31:26</passwordExpired>
+    <passwordExpired>2018-05-20 16:41:38</passwordExpired>
     <address>
       <street>Niestachowska</street>
       <city>Poznań</city>
@@ -71,6 +71,205 @@
             </business>
           </passwords>
           <passwords>2</passwords>
+        </passwords>
+        <users/>
+      </businesses>
+      <businesses>
+        <nip>1152284732</nip>
+        <regon>456298759</regon>
+        <name>Warsztat samochodowy</name>
+        <address>
+          <street>Poznańska</street>
+          <city>Wrocław</city>
+          <postCode>45895</postCode>
+          <houseNumber>65</houseNumber>
+          <country>Poland</country>
+        </address>
+        <passwords>
+          <passwords>
+            <refId>3</refId>
+            <password>Op0k@</password>
+            <name>Serwer</name>
+            <comment/>
+            <business>
+              <nip>1152284732</nip>
+              <regon>456298759</regon>
+              <name>Warsztat samochodowy</name>
+              <address>
+                <street>Poznańska</street>
+                <city>Wrocław</city>
+                <postCode>45895</postCode>
+                <houseNumber>65</houseNumber>
+                <country>Poland</country>
+              </address>
+              <passwords>
+                <passwords>3</passwords>
+                <passwords>
+                  <refId>4</refId>
+                  <password>P|0tk@</password>
+                  <name>NAS</name>
+                  <comment>NAS dla szefa</comment>
+                  <business>
+                    <nip>1152284732</nip>
+                    <regon>456298759</regon>
+                    <name>Warsztat samochodowy</name>
+                    <address>
+                      <street>Poznańska</street>
+                      <city>Wrocław</city>
+                      <postCode>45895</postCode>
+                      <houseNumber>65</houseNumber>
+                      <country>Poland</country>
+                    </address>
+                    <passwords>
+                      <passwords>3</passwords>
+                      <passwords>4</passwords>
+                    </passwords>
+                    <users/>
+                  </business>
+                </passwords>
+              </passwords>
+              <users/>
+            </business>
+          </passwords>
+          <passwords>4</passwords>
+        </passwords>
+        <users/>
+      </businesses>
+    </businesses>
+  </item>
+  <item>
+    <login>TadeuszN</login>
+    <name>Tadeusz</name>
+    <surname>Nowicki</surname>
+    <password>h@s|0!@#</password>
+    <passwordExpired>2018-05-20 16:41:38</passwordExpired>
+    <address>
+      <street>Warszawska</street>
+      <city>Wrocław</city>
+      <postCode>42985</postCode>
+      <houseNumber>23</houseNumber>
+      <country>Poland</country>
+    </address>
+    <businesses>
+      <businesses>
+        <nip>1542265985</nip>
+        <regon>102648956</regon>
+        <name>Szklania Piaska</name>
+        <address>
+          <street>Wawrzyniaka</street>
+          <city>Wrocław</city>
+          <postCode>48972</postCode>
+          <houseNumber>56</houseNumber>
+          <country>Poland</country>
+        </address>
+        <passwords>
+          <passwords>
+            <refId>5</refId>
+            <password>Qwerty!@#</password>
+            <name>Komputer wojtka</name>
+            <comment/>
+            <business>
+              <nip>1542265985</nip>
+              <regon>102648956</regon>
+              <name>Szklania Piaska</name>
+              <address>
+                <street>Wawrzyniaka</street>
+                <city>Wrocław</city>
+                <postCode>48972</postCode>
+                <houseNumber>56</houseNumber>
+                <country>Poland</country>
+              </address>
+              <passwords>
+                <passwords>5</passwords>
+                <passwords>
+                  <refId>6</refId>
+                  <password>zxcqaz!@#</password>
+                  <name>WiFi goście</name>
+                  <comment>WiFi dla gości w biurze</comment>
+                  <business>
+                    <nip>1542265985</nip>
+                    <regon>102648956</regon>
+                    <name>Szklania Piaska</name>
+                    <address>
+                      <street>Wawrzyniaka</street>
+                      <city>Wrocław</city>
+                      <postCode>48972</postCode>
+                      <houseNumber>56</houseNumber>
+                      <country>Poland</country>
+                    </address>
+                    <passwords>
+                      <passwords>5</passwords>
+                      <passwords>6</passwords>
+                    </passwords>
+                    <users/>
+                  </business>
+                </passwords>
+              </passwords>
+              <users/>
+            </business>
+          </passwords>
+          <passwords>6</passwords>
+        </passwords>
+        <users/>
+      </businesses>
+      <businesses>
+        <nip>4489654285</nip>
+        <regon>162548975</regon>
+        <name>Warsztat samochodowy</name>
+        <address>
+          <street>Poznańska</street>
+          <city>Wrocław</city>
+          <postCode>45895</postCode>
+          <houseNumber>65</houseNumber>
+          <country>Poland</country>
+        </address>
+        <passwords>
+          <passwords>
+            <refId>7</refId>
+            <password>W0N!@#</password>
+            <name>Serwer AD</name>
+            <comment/>
+            <business>
+              <nip>4489654285</nip>
+              <regon>162548975</regon>
+              <name>Warsztat samochodowy</name>
+              <address>
+                <street>Poznańska</street>
+                <city>Wrocław</city>
+                <postCode>45895</postCode>
+                <houseNumber>65</houseNumber>
+                <country>Poland</country>
+              </address>
+              <passwords>
+                <passwords>7</passwords>
+                <passwords>
+                  <refId>8</refId>
+                  <password>Dal9o|</password>
+                  <name>NTV</name>
+                  <comment>Stream Szefa</comment>
+                  <business>
+                    <nip>4489654285</nip>
+                    <regon>162548975</regon>
+                    <name>Warsztat samochodowy</name>
+                    <address>
+                      <street>Poznańska</street>
+                      <city>Wrocław</city>
+                      <postCode>45895</postCode>
+                      <houseNumber>65</houseNumber>
+                      <country>Poland</country>
+                    </address>
+                    <passwords>
+                      <passwords>7</passwords>
+                      <passwords>8</passwords>
+                    </passwords>
+                    <users/>
+                  </business>
+                </passwords>
+              </passwords>
+              <users/>
+            </business>
+          </passwords>
+          <passwords>8</passwords>
         </passwords>
         <users/>
       </businesses>

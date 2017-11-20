@@ -3,7 +3,7 @@
   "name" : "Marek",
   "surname" : "Pils",
   "password" : "pass123",
-  "passwordExpired" : "2018-05-20 10:31:21",
+  "passwordExpired" : "2018-05-20 17:05:37",
   "address" : {
     "street" : "Niestachowska",
     "city" : "Poznań",
@@ -63,4 +63,18 @@
     }, 2 ],
     "users" : [ ]
   } ]
+}, {
+  "login" : "Adam",
+  "name" : "Adam",
+  "surname" : "Moś",
+  "password" : "pol234",
+  "passwordExpired" : "2018-05-20 17:05:37",
+  "address" : {
+    "street" : "Warszawska",
+    "city" : "Poznań",
+    "postCode" : "60234",
+    "houseNumber" : "43",
+    "country" : "Poland"
+  },
+  "businesses" : [ ]
 } ]

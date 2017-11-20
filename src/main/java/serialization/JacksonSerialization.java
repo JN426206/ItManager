@@ -1,32 +1,23 @@
 package serialization;
 
 import Hibernate.Manager;
-import Hibernate.model.Address;
-import Hibernate.model.Business;
-import Hibernate.model.Passwords;
 import Hibernate.model.Users;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.fasterxml.jackson.datatype.joda.JodaModule;
-import com.fatboyindustrial.gsonjodatime.Converters;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
 import org.apache.log4j.Logger;
-import org.joda.time.DateTime;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class JacksonSerialization {
     final static org.apache.log4j.Logger logger = Logger.getLogger(JacksonSerialization.class);
 
     public static void generateFirstJson(ObjectMapper mapper, String fileSuffix) throws IOException {
 
+        logger.info("Start generateFirstJson");
         //Set mapper to pretty-print
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         mapper.registerModule(new JodaModule());
@@ -42,29 +33,14 @@ public class JacksonSerialization {
         logger.info("Printing serialized original object " + fileSuffix);
         System.out.println(jsonString);
 
-//        //Deserialize from file
-//        Employee deserializedEmployee = mapper.readValue(
-//                new File("result." + fileSuffix), Employee.class);
-//
-//        //Give a rise
-//        deserializedEmployee.setSalary(deserializedEmployee.getSalary() * 2);
-//
-//        //Serialize back
-//        mapper.writeValue(new File("result-modified." + fileSuffix), deserializedEmployee);
-//        String modifiedJsonString = mapper.writeValueAsString(deserializedEmployee);
-//        logger.info("Printing serialized modified object " + fileSuffix);
-//        System.out.println(modifiedJsonString);
-//
-//        //Serialize generic List
-//        List<Employee> employees = objectsCreator.getEmployees();
-//        String employeesListSerialized = mapper.writeValueAsString(employees);
-//        logger.info("Printing serialized employees list " + fileSuffix);
-//        System.out.println(employeesListSerialized);
+
+        logger.info("Stop generateFirstJson");
 
     }
 
     public static void saveJSON(ObjectMapper jsonMapper, List<Users> users, String fileSuffix){
 
+        logger.info("Start saveJSON");
         try {
 
 //            for (Users user : users) {
@@ -88,10 +64,14 @@ public class JacksonSerialization {
             System.out.println(jsonString);
         }catch (IOException e){
             e.printStackTrace();
+        }finally {
+            logger.info("Stop saveJSON");
         }
     }
 
     public static void loadJSON(ObjectMapper mapper, String fileSuffix) throws IOException {
+
+        logger.info("Start loadJSON");
 
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         mapper.registerModule(new JodaModule());
@@ -105,18 +85,24 @@ public class JacksonSerialization {
         logger.info("Printing modified re-serialized employee to" + fileSuffix);
         System.out.println(deserializedUsers.size());
         new Manager().saveToDatabaseAllDate(deserializedUsers);
+
+        logger.info("Stop loadJSON");
+    }
+
+    public JacksonSerialization(){
+
     }
 
     public static void main(String [ ] args) throws IOException{
 
         ObjectMapper jsonMapper = new ObjectMapper();
-        //generateFirstJson(jsonMapper, "json");
-        saveJSON(jsonMapper, new Manager().readFromBaseAllDate(),"json");
+        generateFirstJson(jsonMapper, "json");
         loadJSON(jsonMapper, "json");
+        saveJSON(jsonMapper, new Manager().readFromBaseAllDate(),"json");
 
         ObjectMapper xmlMapper = new XmlMapper();
         //generateFirstJson(xmlMapper, "xml");
-        saveJSON(xmlMapper,new Manager().readFromBaseAllDate(),"xml");
-        loadJSON(xmlMapper,"xml");
+        //loadJSON(xmlMapper,"xml");
+        //saveJSON(xmlMapper,new Manager().readFromBaseAllDate(),"xml");
     }
 }

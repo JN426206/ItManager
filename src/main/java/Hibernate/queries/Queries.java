@@ -19,6 +19,7 @@ public class Queries {
 
     public List<Users> getAllUsers(){
         Query query = entityManager.createQuery("SELECT k from Users k");
+        System.out.println("Users count: " + query.getResultList().size());
         return query.getResultList();
     }
 

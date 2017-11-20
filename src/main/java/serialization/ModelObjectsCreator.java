@@ -311,15 +311,15 @@ public class ModelObjectsCreator {
 
         busines2U2.setName("Warsztat samochodowy");
         busines2U2.setAddress(addressBusines2U2);
-        busines2U2.setNip("1152284732");
-        busines2U2.setRegon("456298759");
+        busines2U2.setNip("4489654285");
+        busines2U2.setRegon("162548975");
 
-        passwordb2U2.setPassword("Op0k@");
-        passwordb2U2.setName("Serwer");
+        passwordb2U2.setPassword("W0N!@#");
+        passwordb2U2.setName("Serwer AD");
 
-        passwordb22U2.setPassword("P|0tk@");
-        passwordb22U2.setName("NAS");
-        passwordb22U2.setComment("NAS dla szefa");
+        passwordb22U2.setPassword("Dal9o|");
+        passwordb22U2.setName("NTV");
+        passwordb22U2.setComment("Stream Szefa");
 
         busines2U2.getPasswords().add(passwordb2U2);
         busines2U2.getPasswords().add(passwordb22U2);
@@ -340,7 +340,7 @@ public class ModelObjectsCreator {
         userU2.getBusinesses().add(businesU2);
         userU2.getBusinesses().add(busines2U2);
         DateTime dateU2 = DateTime.now();
-        user.setPasswordExpired(dateU2.plusMonths(6));
+        userU2.setPasswordExpired(dateU2.plusMonths(6));
 //--------------------------------------------------------------------------
 
         users.add(user);
