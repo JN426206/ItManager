@@ -3,7 +3,7 @@
   "name" : "Marek",
   "surname" : "Pils",
   "password" : "pass123",
-  "passwordExpired" : "2018-05-20 18:11:05",
+  "passwordExpired" : "2018-05-20 18:31:42",
   "address" : {
     "street" : "Niestachowska",
     "city" : "Poznań",
@@ -62,19 +62,172 @@
       }
     }, 2 ],
     "users" : [ ]
+  }, {
+    "nip" : "1152284732",
+    "regon" : "456298759",
+    "name" : "Warsztat samochodowy",
+    "address" : {
+      "street" : "Poznańska",
+      "city" : "Wrocław",
+      "postCode" : "45895",
+      "houseNumber" : "65",
+      "country" : "Poland"
+    },
+    "passwords" : [ {
+      "refId" : 3,
+      "password" : "Op0k@",
+      "name" : "Serwer",
+      "comment" : null,
+      "business" : {
+        "nip" : "1152284732",
+        "regon" : "456298759",
+        "name" : "Warsztat samochodowy",
+        "address" : {
+          "street" : "Poznańska",
+          "city" : "Wrocław",
+          "postCode" : "45895",
+          "houseNumber" : "65",
+          "country" : "Poland"
+        },
+        "passwords" : [ 3, {
+          "refId" : 4,
+          "password" : "P|0tk@",
+          "name" : "NAS",
+          "comment" : "NAS dla szefa",
+          "business" : {
+            "nip" : "1152284732",
+            "regon" : "456298759",
+            "name" : "Warsztat samochodowy",
+            "address" : {
+              "street" : "Poznańska",
+              "city" : "Wrocław",
+              "postCode" : "45895",
+              "houseNumber" : "65",
+              "country" : "Poland"
+            },
+            "passwords" : [ 3, 4 ],
+            "users" : [ ]
+          }
+        } ],
+        "users" : [ ]
+      }
+    }, 4 ],
+    "users" : [ ]
   } ]
 }, {
-  "login" : "Adam",
-  "name" : "Adam",
-  "surname" : "Moś",
-  "password" : "pol234",
-  "passwordExpired" : "2018-05-20 18:11:05",
+  "login" : "TadeuszN",
+  "name" : "Tadeusz",
+  "surname" : "Nowicki",
+  "password" : "h@s|0!@#",
+  "passwordExpired" : "2018-05-20 18:31:42",
   "address" : {
     "street" : "Warszawska",
-    "city" : "Poznań",
-    "postCode" : "60234",
-    "houseNumber" : "43",
+    "city" : "Wrocław",
+    "postCode" : "42985",
+    "houseNumber" : "23",
     "country" : "Poland"
   },
-  "businesses" : [ ]
+  "businesses" : [ {
+    "nip" : "1542265985",
+    "regon" : "102648956",
+    "name" : "Szklania Piaska",
+    "address" : {
+      "street" : "Wawrzyniaka",
+      "city" : "Wrocław",
+      "postCode" : "48972",
+      "houseNumber" : "56",
+      "country" : "Poland"
+    },
+    "passwords" : [ {
+      "refId" : 5,
+      "password" : "Qwerty!@#",
+      "name" : "Komputer wojtka",
+      "comment" : null,
+      "business" : {
+        "nip" : "1542265985",
+        "regon" : "102648956",
+        "name" : "Szklania Piaska",
+        "address" : {
+          "street" : "Wawrzyniaka",
+          "city" : "Wrocław",
+          "postCode" : "48972",
+          "houseNumber" : "56",
+          "country" : "Poland"
+        },
+        "passwords" : [ 5, {
+          "refId" : 6,
+          "password" : "zxcqaz!@#",
+          "name" : "WiFi goście",
+          "comment" : "WiFi dla gości w biurze",
+          "business" : {
+            "nip" : "1542265985",
+            "regon" : "102648956",
+            "name" : "Szklania Piaska",
+            "address" : {
+              "street" : "Wawrzyniaka",
+              "city" : "Wrocław",
+              "postCode" : "48972",
+              "houseNumber" : "56",
+              "country" : "Poland"
+            },
+            "passwords" : [ 5, 6 ],
+            "users" : [ ]
+          }
+        } ],
+        "users" : [ ]
+      }
+    }, 6 ],
+    "users" : [ ]
+  }, {
+    "nip" : "4489654285",
+    "regon" : "162548975",
+    "name" : "Warsztat samochodowy",
+    "address" : {
+      "street" : "Poznańska",
+      "city" : "Wrocław",
+      "postCode" : "45895",
+      "houseNumber" : "65",
+      "country" : "Poland"
+    },
+    "passwords" : [ {
+      "refId" : 7,
+      "password" : "W0N!@#",
+      "name" : "Serwer AD",
+      "comment" : null,
+      "business" : {
+        "nip" : "4489654285",
+        "regon" : "162548975",
+        "name" : "Warsztat samochodowy",
+        "address" : {
+          "street" : "Poznańska",
+          "city" : "Wrocław",
+          "postCode" : "45895",
+          "houseNumber" : "65",
+          "country" : "Poland"
+        },
+        "passwords" : [ 7, {
+          "refId" : 8,
+          "password" : "Dal9o|",
+          "name" : "NTV",
+          "comment" : "Stream Szefa",
+          "business" : {
+            "nip" : "4489654285",
+            "regon" : "162548975",
+            "name" : "Warsztat samochodowy",
+            "address" : {
+              "street" : "Poznańska",
+              "city" : "Wrocław",
+              "postCode" : "45895",
+              "houseNumber" : "65",
+              "country" : "Poland"
+            },
+            "passwords" : [ 7, 8 ],
+            "users" : [ ]
+          }
+        } ],
+        "users" : [ ]
+      }
+    }, 8 ],
+    "users" : [ ]
+  } ]
 } ]

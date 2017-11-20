@@ -31,6 +31,7 @@ public class JacksonSerializationTest {
             List<Users> users = serialization.loadJSON(jsonMapper, "json");
             assertEquals(2,users.size());
         }catch (IOException e){
+            assertTrue(false);
             e.printStackTrace();
         } finally {
             logger.info("Stop checkLoadJSON Test");
@@ -46,6 +47,7 @@ public class JacksonSerializationTest {
             List<Users> users = serialization.loadJSON(jsonMapper, "json");
             assertEquals(2,users.size());
         }catch (IOException e){
+            assertTrue(false);
             e.printStackTrace();
         } finally {
             logger.info("Stop checkSaveJSON Test");
@@ -62,6 +64,7 @@ public class JacksonSerializationTest {
             List<Users> users = serialization.loadJSON(XmlMapper, "xml");
             assertEquals(2,users.size());
         }catch (IOException e){
+            assertTrue(false);
             e.printStackTrace();
         } finally {
             logger.info("Stop checkLoadXML Test");
@@ -77,6 +80,7 @@ public class JacksonSerializationTest {
             List<Users> users = serialization.loadJSON(XmlMapper, "xml");
             assertEquals(2,users.size());
         }catch (IOException e){
+            assertTrue(false);
             e.printStackTrace();
         } finally {
             logger.info("Stop checkSaveXML Test");
