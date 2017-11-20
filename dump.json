@@ -3,7 +3,7 @@
   "name" : "Marek",
   "surname" : "Pils",
   "password" : "pass123",
-  "passwordExpired" : "2018-05-20 17:59:47",
+  "passwordExpired" : "2018-05-20 18:11:05",
   "address" : {
     "street" : "Niestachowska",
     "city" : "Poznań",
@@ -68,7 +68,7 @@
   "name" : "Adam",
   "surname" : "Moś",
   "password" : "pol234",
-  "passwordExpired" : "2018-05-20 17:59:47",
+  "passwordExpired" : "2018-05-20 18:11:05",
   "address" : {
     "street" : "Warszawska",
     "city" : "Poznań",

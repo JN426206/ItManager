@@ -4,7 +4,7 @@
     <name>Marek</name>
     <surname>Pils</surname>
     <password>pass123</password>
-    <passwordExpired>2018-05-20 17:59:49</passwordExpired>
+    <passwordExpired>2018-05-20 18:11:11</passwordExpired>
     <address>
       <street>Niestachowska</street>
       <city>Poznań</city>
@@ -81,7 +81,7 @@
     <name>Adam</name>
     <surname>Moś</surname>
     <password>pol234</password>
-    <passwordExpired>2018-05-20 17:59:49</passwordExpired>
+    <passwordExpired>2018-05-20 18:11:11</passwordExpired>
     <address>
       <street>Warszawska</street>
       <city>Poznań</city>
