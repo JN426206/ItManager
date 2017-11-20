@@ -12568,3 +12568,994 @@ org.postgresql.util.PSQLWarning: ALTER TABLE / ADD UNIQUE will create implicit i
 2017-11-20 19:05:37 INFO  JacksonSerialization:43 - Start saveJSON
 2017-11-20 19:05:38 INFO  JacksonSerialization:63 - Printing serialized original object json
 2017-11-20 19:05:38 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:11:05 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:11:05 INFO  JacksonSerialization:33 - Printing serialized original object json
+2017-11-20 19:11:05 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:11:05 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:11:05 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:11:06 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-20 19:11:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:11:06 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-20 19:11:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-20 19:11:06 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-20 19:11:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 19:11:06 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:11:06 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:11:06 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:11:06 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:11:06 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:11:07 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:11:07 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:11:07 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@53dacd14
+2017-11-20 19:11:08 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:11:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:11:09 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@33cbfa57'
+2017-11-20 19:11:09 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:11:09 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:13:39 INFO  JacksonSerializationTest:19 - Start JacksonSerializationTest
+2017-11-20 19:13:39 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:13:40 INFO  JacksonSerialization:33 - Printing serialized original object json
+2017-11-20 19:13:40 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:13:40 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:13:40 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:13:40 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-20 19:13:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:13:40 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-20 19:13:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-20 19:13:40 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-20 19:13:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 19:13:41 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:13:41 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:13:41 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:13:41 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:13:41 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:13:41 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:13:42 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:13:42 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:13:43 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:13:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:13:44 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:13:45 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:13:45 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:17:07 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:17:07 INFO  JacksonSerializationTest:26 - Start checkLoadJSON Test
+2017-11-20 19:17:07 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:17:07 INFO  JacksonSerialization:33 - Printing serialized original object json
+2017-11-20 19:17:07 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:17:07 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:17:07 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:17:08 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-20 19:17:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:17:08 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-20 19:17:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-20 19:17:08 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-20 19:17:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 19:17:08 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:17:09 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:17:09 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:17:09 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:17:09 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:17:09 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:17:09 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:17:09 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:17:10 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:12 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:17:12 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:17:12 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:17:12 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:17:12 INFO  JacksonSerializationTest:35 - Stop checkLoadJSON Test
+2017-11-20 19:17:12 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:17:12 INFO  JacksonSerializationTest:41 - Start checkSaveJSON Test
+2017-11-20 19:17:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:17:12 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:17:12 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:17:12 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:17:12 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:17:12 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:17:12 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:17:12 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:17:12 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:17:13 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:13 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:17:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:14 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:17:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:14 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:17:14 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:14 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:15 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:17:15 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:17:16 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:17:18 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:17:18 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:17:18 INFO  JacksonSerialization:63 - Printing serialized original object json
+2017-11-20 19:17:18 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:17:18 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:17:18 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:17:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:17:18 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:17:18 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:17:18 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:17:18 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:17:18 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:17:18 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:17:19 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:17:19 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:17:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:17:20 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:17:20 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:17:20 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:17:20 INFO  JacksonSerializationTest:50 - Stop checkSaveJSON Test
+2017-11-20 19:18:10 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:18:10 INFO  JacksonSerializationTest:26 - Start checkLoadJSON Test
+2017-11-20 19:18:11 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:18:11 INFO  JacksonSerialization:33 - Printing serialized original object json
+2017-11-20 19:18:11 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:18:11 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:18:11 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:18:11 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-20 19:18:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:18:12 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-20 19:18:12 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-20 19:18:12 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-20 19:18:12 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 19:18:12 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:18:12 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:12 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:18:12 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:18:12 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:18:13 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:18:14 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:18:14 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:18:14 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-20 19:18:15 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:15 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:16 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:18:16 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:18:16 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:16 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:18:16 INFO  JacksonSerializationTest:35 - Stop checkLoadJSON Test
+2017-11-20 19:18:16 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:18:16 INFO  JacksonSerializationTest:57 - Start checkLoadXML Test
+2017-11-20 19:18:16 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:18:16 INFO  JacksonSerialization:33 - Printing serialized original object xml
+2017-11-20 19:18:16 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:18:16 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:18:16 INFO  JacksonSerialization:85 - Printing modified re-serialized employee toxml
+2017-11-20 19:18:16 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:18:16 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:18:16 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:16 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:18:16 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:18:16 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:18:16 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:18:17 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:18:17 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:17 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:18 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:18:18 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:18:18 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:18 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:18:18 INFO  JacksonSerializationTest:66 - Stop checkLoadXML Test
+2017-11-20 19:18:18 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:18:18 INFO  JacksonSerializationTest:41 - Start checkSaveJSON Test
+2017-11-20 19:18:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:18:18 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:18:18 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:18 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:18:18 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:18:18 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:18:18 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:18:18 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:18:18 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:18:18 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:18 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:19 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:18:19 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:18:19 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:18:19 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:19 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:18:19 INFO  JacksonSerialization:63 - Printing serialized original object json
+2017-11-20 19:18:19 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:18:19 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:18:19 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:18:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:18:19 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:18:19 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:19 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:18:19 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:18:19 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:18:19 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:18:19 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:18:19 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:20 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:18:20 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:18:20 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:20 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:18:20 INFO  JacksonSerializationTest:50 - Stop checkSaveJSON Test
+2017-11-20 19:18:20 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:18:20 INFO  JacksonSerializationTest:72 - Start checkSaveXML Test
+2017-11-20 19:18:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:18:20 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:18:20 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:20 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:18:20 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:18:20 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:18:20 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:18:20 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:18:20 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:21 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:18:21 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:18:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:18:21 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:21 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:18:21 INFO  JacksonSerialization:63 - Printing serialized original object xml
+2017-11-20 19:18:21 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:18:21 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:18:21 INFO  JacksonSerialization:85 - Printing modified re-serialized employee toxml
+2017-11-20 19:18:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:18:21 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:18:21 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:21 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:18:21 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:18:21 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:18:21 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:18:21 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:18:21 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@f73dcd6
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:18:22 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:18:22 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@18eec010'
+2017-11-20 19:18:22 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:18:22 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:18:22 INFO  JacksonSerializationTest:81 - Stop checkSaveXML Test
+2017-11-20 19:57:29 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:57:29 INFO  JacksonSerialization:33 - Printing serialized original object json
+2017-11-20 19:57:29 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:57:29 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:57:29 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:57:30 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-20 19:57:30 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:57:30 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-20 19:57:30 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-20 19:57:30 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-20 19:57:30 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 19:57:30 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:57:30 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:30 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:57:30 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:57:30 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:57:32 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:57:32 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:57:32 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6475472c
+2017-11-20 19:57:34 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-20 19:57:35 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:35 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:36 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:57:36 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@31c2affc'
+2017-11-20 19:57:37 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:37 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:57:37 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:57:37 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:57:37 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:37 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:57:37 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:57:37 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:57:37 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:57:37 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:57:37 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6475472c
+2017-11-20 19:57:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:37 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:57:37 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:37 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:38 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:57:39 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@31c2affc'
+2017-11-20 19:57:39 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:57:39 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:39 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:57:39 INFO  JacksonSerialization:63 - Printing serialized original object json
+2017-11-20 19:57:39 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:57:39 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:57:40 INFO  JacksonSerialization:33 - Printing serialized original object xml
+2017-11-20 19:57:40 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:57:40 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:57:40 INFO  JacksonSerialization:85 - Printing modified re-serialized employee toxml
+2017-11-20 19:57:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:57:40 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:57:40 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:40 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:57:40 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:57:40 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:57:40 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:57:40 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:57:40 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6475472c
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:41 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:57:41 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@31c2affc'
+2017-11-20 19:57:41 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:41 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:57:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:57:41 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:57:41 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:41 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:57:41 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:57:41 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:57:41 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:57:41 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:57:41 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6475472c
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:57:42 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:57:42 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@31c2affc'
+2017-11-20 19:57:42 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:57:42 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:57:42 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:57:42 INFO  JacksonSerialization:63 - Printing serialized original object xml
+2017-11-20 19:57:42 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:57:59 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:57:59 INFO  JacksonSerializationTest:26 - Start checkLoadJSON Test
+2017-11-20 19:58:00 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:58:00 INFO  JacksonSerialization:33 - Printing serialized original object json
+2017-11-20 19:58:00 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:58:00 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:58:00 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:58:00 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-20 19:58:00 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:58:01 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-20 19:58:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-20 19:58:01 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-20 19:58:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 19:58:01 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:58:01 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:01 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:58:01 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:58:01 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:58:02 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:58:02 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:58:02 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:58:03 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:05 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:58:05 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:58:06 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:06 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:58:06 INFO  JacksonSerializationTest:35 - Stop checkLoadJSON Test
+2017-11-20 19:58:06 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:58:06 INFO  JacksonSerializationTest:57 - Start checkLoadXML Test
+2017-11-20 19:58:06 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:58:06 INFO  JacksonSerialization:33 - Printing serialized original object xml
+2017-11-20 19:58:06 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:58:06 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:58:06 INFO  JacksonSerialization:85 - Printing modified re-serialized employee toxml
+2017-11-20 19:58:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:58:06 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:58:06 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:06 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:58:06 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:58:06 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:58:06 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:58:06 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:58:06 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:58:06 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:06 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:58:06 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:06 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:58:06 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:06 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:58:07 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:58:07 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:07 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:58:07 INFO  JacksonSerializationTest:66 - Stop checkLoadXML Test
+2017-11-20 19:58:07 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:58:07 INFO  JacksonSerializationTest:41 - Start checkSaveJSON Test
+2017-11-20 19:58:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:58:07 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:58:07 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:07 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:58:07 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:58:07 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:58:07 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:58:07 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:58:07 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:07 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:08 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:58:08 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:58:08 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:58:08 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:08 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:58:08 INFO  JacksonSerialization:63 - Printing serialized original object json
+2017-11-20 19:58:08 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:58:08 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:58:08 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:58:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:58:08 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:58:08 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:08 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:58:08 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:58:08 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:58:08 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:58:09 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:58:09 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:09 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:58:09 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:58:09 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:09 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:58:09 INFO  JacksonSerializationTest:50 - Stop checkSaveJSON Test
+2017-11-20 19:58:09 INFO  JacksonSerializationTest:20 - Start JacksonSerializationTest
+2017-11-20 19:58:09 INFO  JacksonSerializationTest:72 - Start checkSaveXML Test
+2017-11-20 19:58:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:58:09 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:58:09 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:09 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:58:09 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:58:09 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:58:09 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:58:10 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:58:10 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:10 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:58:10 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:58:10 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:58:10 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:10 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:58:10 INFO  JacksonSerialization:63 - Printing serialized original object xml
+2017-11-20 19:58:10 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:58:10 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:58:10 INFO  JacksonSerialization:85 - Printing modified re-serialized employee toxml
+2017-11-20 19:58:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:58:11 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:58:11 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:11 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:58:11 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:58:11 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:58:11 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:58:11 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:58:11 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:11 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:58:12 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:12 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:58:12 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:58:12 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:58:12 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:58:12 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:58:12 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:58:12 INFO  JacksonSerializationTest:81 - Stop checkSaveXML Test
+2017-11-20 19:59:33 INFO  JacksonSerializationTest:21 - Start JacksonSerializationTest
+2017-11-20 19:59:33 INFO  JacksonSerializationTest:27 - Start checkLoadJSON Test
+2017-11-20 19:59:34 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:59:34 INFO  JacksonSerialization:33 - Printing serialized original object json
+2017-11-20 19:59:34 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:59:34 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:59:34 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:59:34 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2017-11-20 19:59:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:59:35 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2017-11-20 19:59:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2017-11-20 19:59:35 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2017-11-20 19:59:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-20 19:59:35 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:59:35 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:35 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:59:35 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:59:35 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:59:36 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:59:36 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:59:36 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:59:37 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2017-11-20 19:59:43 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:43 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:59:43 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:43 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:59:43 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:43 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:44 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:59:44 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:59:44 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:44 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:59:44 INFO  JacksonSerializationTest:36 - Stop checkLoadJSON Test
+2017-11-20 19:59:44 INFO  JacksonSerializationTest:21 - Start JacksonSerializationTest
+2017-11-20 19:59:44 INFO  JacksonSerializationTest:58 - Start checkLoadXML Test
+2017-11-20 19:59:44 INFO  JacksonSerialization:20 - Start generateFirstJson
+2017-11-20 19:59:44 INFO  JacksonSerialization:33 - Printing serialized original object xml
+2017-11-20 19:59:44 INFO  JacksonSerialization:37 - Stop generateFirstJson
+2017-11-20 19:59:44 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:59:45 INFO  JacksonSerialization:85 - Printing modified re-serialized employee toxml
+2017-11-20 19:59:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:59:45 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:59:45 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:45 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:59:45 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:59:45 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:59:45 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:59:45 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:59:45 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:45 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:59:46 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:59:46 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:46 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:59:46 INFO  JacksonSerializationTest:67 - Stop checkLoadXML Test
+2017-11-20 19:59:46 INFO  JacksonSerializationTest:21 - Start JacksonSerializationTest
+2017-11-20 19:59:46 INFO  JacksonSerializationTest:42 - Start checkSaveJSON Test
+2017-11-20 19:59:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:59:46 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:59:46 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:46 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:59:46 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:59:46 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:59:46 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:59:46 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:59:46 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:46 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:59:47 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:47 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:59:47 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:47 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:59:47 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:59:47 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:59:47 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:47 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:59:47 INFO  JacksonSerialization:63 - Printing serialized original object json
+2017-11-20 19:59:47 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:59:47 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:59:47 INFO  JacksonSerialization:85 - Printing modified re-serialized employee tojson
+2017-11-20 19:59:47 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:59:47 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:59:47 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:47 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:59:47 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:59:47 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:59:47 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:59:47 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:59:47 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:59:47 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:47 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:48 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:59:48 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:59:48 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:48 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:59:48 INFO  JacksonSerializationTest:51 - Stop checkSaveJSON Test
+2017-11-20 19:59:48 INFO  JacksonSerializationTest:21 - Start JacksonSerializationTest
+2017-11-20 19:59:48 INFO  JacksonSerializationTest:73 - Start checkSaveXML Test
+2017-11-20 19:59:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:59:48 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:59:48 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:48 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:59:48 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:59:48 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:59:48 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:59:48 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:59:48 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:49 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:59:49 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:59:49 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-20 19:59:49 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:49 INFO  JacksonSerialization:43 - Start saveJSON
+2017-11-20 19:59:49 INFO  JacksonSerialization:63 - Printing serialized original object xml
+2017-11-20 19:59:49 INFO  JacksonSerialization:68 - Stop saveJSON
+2017-11-20 19:59:49 INFO  JacksonSerialization:74 - Start loadJSON
+2017-11-20 19:59:49 INFO  JacksonSerialization:85 - Printing modified re-serialized employee toxml
+2017-11-20 19:59:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2017-11-20 19:59:49 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-11-20 19:59:49 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:49 INFO  connections:136 - HHH10001001: Connection properties: {user=s426206, password=****}
+2017-11-20 19:59:49 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2017-11-20 19:59:49 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-11-20 19:59:49 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2017-11-20 19:59:49 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-11-20 19:59:49 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40f1be1b
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "address_pkey" for table "address"
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "business_pkey" for table "business"
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "passwords_pkey" for table "passwords"
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - CREATE TABLE / PRIMARY KEY will create implicit index "users_pkey" for table "users"
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "ukiux1md4u299anfswe5uygdquv" for table "business"
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_sdhnskquyxyiyymj9rqaly9ep" for table "business"
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_2ft1lk6sniffnma6dvsrkjl3v" for table "business"
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2017-11-20 19:59:50 WARN  SqlExceptionHelper:218 - ALTER TABLE / ADD UNIQUE will create implicit index "uk_9ov30plqxuskcotlq1qcbue4a" for table "users"
+2017-11-20 19:59:51 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d61c6dc'
+2017-11-20 19:59:51 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://psql.wmi.amu.edu.pl/dbad_s426206?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory]
+2017-11-20 19:59:51 INFO  JacksonSerialization:88 - Stop loadJSON
+2017-11-20 19:59:51 INFO  JacksonSerializationTest:82 - Stop checkSaveXML Test

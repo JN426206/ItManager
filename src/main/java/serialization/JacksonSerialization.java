@@ -69,7 +69,7 @@ public class JacksonSerialization {
         }
     }
 
-    public static void loadJSON(ObjectMapper mapper, String fileSuffix) throws IOException {
+    public static List<Users> loadJSON(ObjectMapper mapper, String fileSuffix) throws IOException {
 
         logger.info("Start loadJSON");
 
@@ -85,8 +85,8 @@ public class JacksonSerialization {
         logger.info("Printing modified re-serialized employee to" + fileSuffix);
         System.out.println(deserializedUsers.size());
         new Manager().saveToDatabaseAllDate(deserializedUsers);
-
         logger.info("Stop loadJSON");
+        return deserializedUsers;
     }
 
     public JacksonSerialization(){
@@ -101,8 +101,8 @@ public class JacksonSerialization {
         saveJSON(jsonMapper, new Manager().readFromBaseAllDate(),"json");
 
         ObjectMapper xmlMapper = new XmlMapper();
-        //generateFirstJson(xmlMapper, "xml");
-        //loadJSON(xmlMapper,"xml");
-        //saveJSON(xmlMapper,new Manager().readFromBaseAllDate(),"xml");
+        generateFirstJson(xmlMapper, "xml");
+        loadJSON(xmlMapper,"xml");
+        saveJSON(xmlMapper,new Manager().readFromBaseAllDate(),"xml");
     }
 }
