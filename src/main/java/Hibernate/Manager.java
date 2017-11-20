@@ -168,30 +168,59 @@ public class Manager {
             entityManager = entityManagerFactory.createEntityManager();
 
             entityManager.getTransaction().begin();
+//            Address address = new Address();
+//            address.setCity("Poznań");
+//            address.setCountry("Poland");
+//            address.setHouseNumber("23");
+//            address.setPostCode("60980");
+//            address.setStreet("Niestachowska");
+//
+//            Users user = new Users();
+//            user.setLogin("Marek");
+//            user.setName("Marek");
+//            user.setSurname("Pils");
+//            user.setPassword("pass123");
+//            user.setAddress(address);
+//            DateTime date = DateTime.now();
+//            user.setPasswordExpired(date.plusMonths(6));
+//            user.setAddress(address);
+//            entityManager.persist(address);
+//            user.setBusinesses(null);
+//            entityManager.persist(user);
 
             for(Users user : users){
 
-                System.out.println(user.getAddress().getPostCode());
+                System.out.println("Post code user: "+user.getAddress().getIdAddress());
                 entityManager.persist(user.getAddress());
+//                Address address = new Address();
+//                address.setCity("Poznań");
+//                address.setCountry("Poland");
+//                address.setHouseNumber("23");
+//                address.setPostCode("60980");
+//                address.setStreet("Niestachowska");
+//                user.setAddress(address);
+//                user.setBusinesses(null);
 
                 for(Business busines : user.getBusinesses()){
 
-                    System.out.println(busines.getAddress().getPostCode());
+                    System.out.println("Post code business: "+busines.getAddress().getPostCode());
                     entityManager.persist(busines.getAddress());
-
+                    //busines.setPasswords(null);
+                    entityManager.persist(busines);
                     for(Passwords password : busines.getPasswords()){
-                        System.out.println(user.getPasswordExpired());
+                        System.out.println("Password busines: "+password.getPassword());
                         password.setBusiness(busines);
+                        entityManager.persist(password);
                         //busines.getPasswords().add(password);
                     }
 
+
+//                    for(Passwords password : busines.getPasswords()){
+//                        //entityManager.persist(password);
+//                    }
+
                     entityManager.persist(busines);
-
-                    for(Passwords password : busines.getPasswords()){
-                        entityManager.persist(password);
-                    }
-
-                    user.getBusinesses().add(busines);
+                    //user.getBusinesses().add(busines);
 
                 }
 

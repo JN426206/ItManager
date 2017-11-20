@@ -5,18 +5,21 @@ import java.time.ZonedDateTime;
 import java.util.ArrayList;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import org.joda.time.DateTime;
 import java.util.List;
 
+//@JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,property="refId", scope=Users.class)
 @Entity
 @Table(name = "Users", uniqueConstraints = {
         @UniqueConstraint(columnNames = ("login"))})
 public class Users {
 
-    @JsonIgnore
     @Id @GeneratedValue
     @Column(name = "idUsers")
+    @JsonIgnore
     private int idUsers;
 
     @Column(name = "login", nullable = false, unique = true)
@@ -53,6 +56,7 @@ public class Users {
         return idUsers;
     }
 
+    @JsonIgnore
     public void setIdUsers(int id) {
         this.idUsers = id;
     }

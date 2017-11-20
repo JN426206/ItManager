@@ -1,0 +1,79 @@
+<ArrayList>
+  <item>
+    <login>Marek</login>
+    <name>Marek</name>
+    <surname>Pils</surname>
+    <password>pass123</password>
+    <passwordExpired>2018-05-20 10:31:26</passwordExpired>
+    <address>
+      <street>Niestachowska</street>
+      <city>Poznań</city>
+      <postCode>60980</postCode>
+      <houseNumber>23</houseNumber>
+      <country>Poland</country>
+    </address>
+    <businesses>
+      <businesses>
+        <nip>4485562598</nip>
+        <regon>569325478</regon>
+        <name>Wytwórnia jedwabiu</name>
+        <address>
+          <street>Mokra</street>
+          <city>Luboń</city>
+          <postCode>67123</postCode>
+          <houseNumber>15</houseNumber>
+          <country>Poland</country>
+        </address>
+        <passwords>
+          <passwords>
+            <refId>1</refId>
+            <password>123456789</password>
+            <name>Komputer marka</name>
+            <comment/>
+            <business>
+              <nip>4485562598</nip>
+              <regon>569325478</regon>
+              <name>Wytwórnia jedwabiu</name>
+              <address>
+                <street>Mokra</street>
+                <city>Luboń</city>
+                <postCode>67123</postCode>
+                <houseNumber>15</houseNumber>
+                <country>Poland</country>
+              </address>
+              <passwords>
+                <passwords>1</passwords>
+                <passwords>
+                  <refId>2</refId>
+                  <password>ala ma kota</password>
+                  <name>WiFi biuro</name>
+                  <comment>WiFi w biurze tylko na potrzeby księgowej</comment>
+                  <business>
+                    <nip>4485562598</nip>
+                    <regon>569325478</regon>
+                    <name>Wytwórnia jedwabiu</name>
+                    <address>
+                      <street>Mokra</street>
+                      <city>Luboń</city>
+                      <postCode>67123</postCode>
+                      <houseNumber>15</houseNumber>
+                      <country>Poland</country>
+                    </address>
+                    <passwords>
+                      <passwords>1</passwords>
+                      <passwords>2</passwords>
+                    </passwords>
+                    <users/>
+                  </business>
+                </passwords>
+              </passwords>
+              <users/>
+            </business>
+          </passwords>
+          <passwords>2</passwords>
+        </passwords>
+        <users/>
+      </businesses>
+    </businesses>
+  </item>
+</ArrayList>

@@ -1,0 +1,66 @@
+[ {
+  "login" : "Marek",
+  "name" : "Marek",
+  "surname" : "Pils",
+  "password" : "pass123",
+  "passwordExpired" : "2018-05-20 10:31:21",
+  "address" : {
+    "street" : "Niestachowska",
+    "city" : "Poznań",
+    "postCode" : "60980",
+    "houseNumber" : "23",
+    "country" : "Poland"
+  },
+  "businesses" : [ {
+    "nip" : "4485562598",
+    "regon" : "569325478",
+    "name" : "Wytwórnia jedwabiu",
+    "address" : {
+      "street" : "Mokra",
+      "city" : "Luboń",
+      "postCode" : "67123",
+      "houseNumber" : "15",
+      "country" : "Poland"
+    },
+    "passwords" : [ {
+      "refId" : 1,
+      "password" : "123456789",
+      "name" : "Komputer marka",
+      "comment" : null,
+      "business" : {
+        "nip" : "4485562598",
+        "regon" : "569325478",
+        "name" : "Wytwórnia jedwabiu",
+        "address" : {
+          "street" : "Mokra",
+          "city" : "Luboń",
+          "postCode" : "67123",
+          "houseNumber" : "15",
+          "country" : "Poland"
+        },
+        "passwords" : [ 1, {
+          "refId" : 2,
+          "password" : "ala ma kota",
+          "name" : "WiFi biuro",
+          "comment" : "WiFi w biurze tylko na potrzeby księgowej",
+          "business" : {
+            "nip" : "4485562598",
+            "regon" : "569325478",
+            "name" : "Wytwórnia jedwabiu",
+            "address" : {
+              "street" : "Mokra",
+              "city" : "Luboń",
+              "postCode" : "67123",
+              "houseNumber" : "15",
+              "country" : "Poland"
+            },
+            "passwords" : [ 1, 2 ],
+            "users" : [ ]
+          }
+        } ],
+        "users" : [ ]
+      }
+    }, 2 ],
+    "users" : [ ]
+  } ]
+} ]

@@ -45,6 +45,7 @@ public class Business {
         return idBusiness;
     }
 
+    @JsonIgnore
     public void setIdBusiness(int idBusiness) {
         this.idBusiness = idBusiness;
     }

@@ -32,6 +32,7 @@ public class Address {
         return idAddress;
     }
 
+    @JsonIgnore
     public void setIdAddress(int idAddress) {
         this.idAddress = idAddress;
     }

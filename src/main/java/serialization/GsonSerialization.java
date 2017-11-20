@@ -262,8 +262,8 @@ public class GsonSerialization {
     public static void main(String [ ] args) {
 
         //generateFirstJson();
-        //saveJSON(new Manager().readFromBaseAllDate());
-        loadJSON("output.json");
+        saveJSON(new Manager().readFromBaseAllDate());
+        //loadJSON("output.json");
         //loadJSON("firstOutput.json");
     }
 }

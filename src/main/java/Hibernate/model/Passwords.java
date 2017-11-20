@@ -1,9 +1,13 @@
 package Hibernate.model;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 
+@JsonIdentityInfo(generator=ObjectIdGenerators.IntSequenceGenerator.class,
+        property="refId", scope=Business.class)
 @Entity
 @Table(name = "Passwords")
 public class Passwords {
@@ -36,6 +40,7 @@ public class Passwords {
         return idPasswords;
     }
 
+    @JsonIgnore
     public void setIdPasswords(int idPasswords) {
         this.idPasswords = idPasswords;
     }
